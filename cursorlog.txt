@@ -1,0 +1,44 @@
+# Project Progress Log
+
+## January 20, 2024
+- Cloned Gary Sheng's personal website repository as base template for Marcus Noel's personal website
+- Set up initial project structure with Next.js, TypeScript, and Tailwind CSS
+
+## March 19, 2024
+- Cloned audio-story-page-template as base for personal website
+- Initialized fresh git repository
+- Created main branch and initial commit
+- Updated package.json project name to gary-sheng-website
+- Confirmed Next.js 15, TypeScript, shadcn/ui, and Tailwind CSS setup 
+- Updated story sections in story-playback.tsx with personal biography content
+- Added new sections: TL;DR, Origins, Parents' Journey, Early Education, University Years, Professional Journey, Web3 & Community Building, Present Focus, Looking Forward, and Guiding Principles
+- Note: Need to create corresponding audio files for each section 
+- Updated "Web3" to "web3" when not at the start of sentences 
+- Enhanced link styling with emerald colors and hover effects
+- Added configuration for links to open in new tabs 
+- Fixed link visibility by adding direct className styling with important flags 
+- Updated site title to "Gary Sheng | Engineering Wonder" with new subtitle 
+- Fixed title text cutoff by adjusting line height and padding 
+- Created images directory under public folder for storing website images 
+- Added optional imageUrl prop to StorySection interface
+- Added image support to TL;DR section with gary.webp 
+- Moved images to appear after text content with adjusted spacing 
+- Created videos directory under public folder for storing website videos
+- Added optional videoUrl prop to StorySection interface with video player support 
+- Added video support to TL;DR section with gary.mp4 
+- Added optional imageCaption support with styling 
+- Added next/previous section buttons to playback controls
+- Fixed TypeScript error by removing unused 'node' parameter 
+- Improved phrasing of grandfather's imprisonment story for clarity and impact 
+- Improved grammar and flow of Professional Journey section 
+- Updated Dancing Pineapple details with specific stats and correct chronological placement 
+- Simplified site title to just "Gary Sheng" 
+- Fixed scroll behavior for next/previous navigation 
+- Added DevRel site link to Looking Forward section 
+- Updated metadata with Open Graph image and better descriptions
+- Added tech stack link to Present Focus section 
+- Added rainbow button for X DMs at bottom of page 
+- Enhanced rainbow button styling with larger size and rounded corners 
+- Cloned fonzworth repository
+- Initialized new git repository
+- Connected to new GitHub repo at garysheng/dayoneweb
