@@ -11,6 +11,15 @@ const nextConfig = {
     // your project has type errors.
     ignoreBuildErrors: true,
   },
+  images: {
+    domains: ['firebasestorage.googleapis.com'],
+  },
+  experimental: {
+    serverActions: true,
+  },
+  env: {
+    NEXT_PUBLIC_SITE_URL: process.env.NEXT_PUBLIC_SITE_URL,
+  },
 }
 
 module.exports = nextConfig 

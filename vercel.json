@@ -4,5 +4,10 @@
       "path": "/api/cron/update-referrals",
       "schedule": "0 0 * * *"
     }
-  ]
+  ],
+  "buildCommand": "next build",
+  "devCommand": "next dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "outputDirectory": ".next"
 } 
